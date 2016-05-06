@@ -1,0 +1,60 @@
+@charset "utf-8";
+html{
+    font-family: Microsoft YaHei,serif;
+    /*font-size:80%;*/
+}
+img{
+    max-width: 100%;
+    border: 0;
+}
+body{
+    margin: 0 auto;
+    padding:0;
+}
+.main{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #68cdd5;
+}
+.back{
+    width: 10%;
+    max-width: 67px;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.logo{
+    padding-top: 10%;
+    max-width: 180px;
+    margin: 0 auto;
+}
+.content{
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    font-size: 1.9rem;
+    line-height: 5.4rem;
+    color: #fff;
+}
+.bottom{
+    padding-bottom: 10rem;
+    overflow: hidden;
+}
+.left{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.bottom p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+html{
+    font-size: 52.5%;
+}
+}
